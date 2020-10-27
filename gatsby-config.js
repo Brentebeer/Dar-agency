@@ -54,7 +54,12 @@ module.exports = {
         display: "swap",
         
         },
+        plugins: [`gatsby-transformer-sharp`, `gatsby-plugin-sharp`]
+        
+
+
       },
+      
 
  
         
