@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-Preact`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -9,7 +9,7 @@ import {
     BottomEdgeDown,
     BottomEdgeUp,
     Artist
-} from "./pageStyles/pageStyles"
+} from "../pageStyles/pageStyles"
 import {COLORS} from "../constants"
 
 const ArtistsPage = () => {
@@ -32,7 +32,7 @@ const ArtistsPage = () => {
                     sourceUrl
                     imageFile {
                       childImageSharp{
-                        fluid(quality: 100) {
+                        fluid(quality: 50) {
                           ...GatsbyImageSharpFluid_withWebp
                         }
                       }
