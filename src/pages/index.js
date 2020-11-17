@@ -87,7 +87,7 @@ const IndexPage = () => {
         <h2>Featured Artists</h2>
         <div className="artist-items">
           {homePageFeaturedArtists.map(({artist, slug}) => (
-            <Artist to={`/${slug}`}>
+            <Artist key={slug} to={`/${slug}`}>
               <Image fluid={artist.profile.imageFile.childImageSharp.fluid} alt={artist.profile.altText}/>
               <div className="artist-info">
                 <p>{artist.first} {artist.lastName}</p>
